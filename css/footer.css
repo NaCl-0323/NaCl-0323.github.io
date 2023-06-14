@@ -1,0 +1,142 @@
+.footer {
+  /* height: 100%; */
+  background-color: #333;
+}
+
+.footer-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer,
+.footer a {
+  color: #999;
+}
+
+.footer a:hover {
+  color: #ff5050;
+  text-decoration: none;
+}
+
+.footer-info {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.footer-info h3 {
+  padding: 40px 0 46px;
+  text-align: center;
+}
+
+.footer-info li {
+  display: inline-block;
+  text-align: center;
+  list-style-type: none;
+
+
+}
+
+.footer-icon {
+  display: block;
+  width: 46px;
+  height: 48px;
+  margin: 0 20px 14px;
+  background: url(../images/footer_icons.png) no-repeat;
+}
+
+.icon-pc {
+  width: 37px;
+  background-position: -2px 0;
+}
+
+.footer-info a:hover .icon-pc {
+  background-position: -2px -49px;
+}
+
+.icon-mac {
+  background-position: -92px 0;
+}
+
+.footer-info a:hover .icon-mac {
+  background-position: -92px -49px;
+}
+
+.icon-android {
+  width: 37px;
+  background-position: -190px 0;
+}
+
+.footer-info a:hover .icon-android {
+  background-position: -190px -49px;
+}
+
+.icon-iphone {
+  width: 34px;
+  background-position: -279px 0;
+}
+
+.footer-info a:hover .icon-iphone {
+  background-position: -279px -49px;
+}
+
+.icon-kg {
+  width: 41px;
+  background-position: -370px 0;
+}
+
+.footer-info a:hover .icon-kg {
+  background-position: -370px -49px;
+}
+
+.icon-ss {
+  width: 34px;
+  background-position: -464px 0;
+}
+
+.footer-info a:hover .icon-ss {
+  background-position: -464px -49px;
+}
+
+.icon-qp {
+  width: 40px;
+  background-position: -563px 0;
+}
+
+.footer-info a:hover .icon-qp {
+  background-position: -563px -49px;
+}
+
+.footer-info__download {
+  float: left;
+}
+
+.footer-info__product .list {
+  margin-left: -29px;
+}
+
+.footer-copyright {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.footer-copyright p {
+  line-height: 30px;
+}
+
+.footer-copyright a {
+  display: inline;
+}
+
+.footer-copyright span {
+  padding: 0 4px;
+}
+
+.footer .characteristic {
+  text-align: center;
+}
+
+.footer .characteristic a {
+  padding: 0 10px;
+}
