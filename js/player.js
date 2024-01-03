@@ -68,7 +68,7 @@ $(function () {
         //清空之前，保存的音乐数据
         searchMusicSet = []
         if (pattern.test(SingerName)) {
-            $.getJSON("http://www.lifan.ink:9090/search", {
+            $.getJSON("https://kwapi-api-iobiovqpvk.cn-beijing.fcapp.run/search", {
                 "key": SingerName,
                 "pn": n
             }, function (data) {
@@ -133,7 +133,7 @@ $(function () {
     function getMusicSrc(rid) {
         var result;
         $.ajax({
-            url: 'http://www.lifan.ink:9090/mp3',
+            url: 'https://kwapi-api-iobiovqpvk.cn-beijing.fcapp.run/mp3',
             data: {
                 "rid": rid
             },
@@ -151,7 +151,7 @@ $(function () {
     function getLyric(rid) {
         var result;
         $.ajax({
-            url: 'http://lifan.ink:9090/lrc',
+            url: 'https://kwapi-api-iobiovqpvk.cn-beijing.fcapp.run/lrc',
             data: {
                 "rid": rid
             },
@@ -168,7 +168,7 @@ $(function () {
     function getMusicMp4Src(rid) {
         var result;
         $.ajax({
-            url: 'http://lifan.ink:9090/mp4',
+            url: 'https://kwapi-api-iobiovqpvk.cn-beijing.fcapp.run/mp4',
             data: {
                 "rid": rid
             },
